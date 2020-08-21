@@ -1,6 +1,6 @@
 # AdventureGame
-Adventure Game, created using Trees and Nodes
-Created June 11th, 2019
+* Adventure Game, created using Trees and Nodes
+* Created June 11th, 2019
 
 -------------------------------------------------------------------------------
 
