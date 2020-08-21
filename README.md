@@ -34,16 +34,18 @@ Load the book1.csv file in Driver (the main file), in the play function.
    * PageNode(int pageNumber, String text)
      * This constructor takes in a page number and text and sets pageNumber and text to the given value
  * Functions:
+   * getPageNumber()
+     * This function returns the page number as an integer
    * getText()
-     * This function returns the text
+     * This function returns the text as a string
    * setText(String text)
      * This function sets text to be the given text
    * isEnding()
      * This function checks whether the ending has been achieved
    * setEnding()
-     * This function sets the ending
+     * This function sets the ending to be isEnding() / true
    * getChildren()
-     * This function returns the children of the node
+     * This function returns the children of the node as a Set< PageNode >
    * setChildren(Set<PageNode> children)
      * This function sets the children in the set to be the given children
    * toString()
@@ -58,9 +60,9 @@ Load the book1.csv file in Driver (the main file), in the play function.
    * setRoot(PageNode root)
      * This function sets the root to be the given root
    * getNode(int pageNumber)
-     * This function returns the node at the given page number
+     * This function returns the node at the given page number as a PageNode data type
    * getRoot()
-     * This function returns the root of the tree
+     * This function returns the root of the tree as a PageNode data type
    * cheat(int desiredEnding)
      * This function is the recursive function for helper function
    * helper(LinkedList<PageNode> path, PageNode current, int desiredEnding, List<PageNode> result)
@@ -79,7 +81,7 @@ Load the book1.csv file in Driver (the main file), in the play function.
    * This constructor takes in a book of PageTree class and sets it to the field's book
  * Functions:
    * getChoices()
-     * This function returns the choices in the story
+     * This function returns the choices in the story as a LinkedList< PageNode > data type
    * playGame()
      * This function is the recursive function for playGame(String option)
    * playGame(String option)
@@ -87,7 +89,7 @@ Load the book1.csv file in Driver (the main file), in the play function.
    * truncateChoices(int pageNumber)
      * This function removes everything after the given page
    * getOption(PageNode input)
-     * This function gets the option for the next path
+     * This function returns the option for the next path as a string
 
 
 
